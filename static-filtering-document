@@ -1,0 +1,5 @@
+# static-filtering
+
+Jackson has two annotations that are used in filtering are: @JsonIgnore and @JsonIgnoreProperties.
+1.@JsonIgnore  is a member or method level annotation. It expects that the properties to be excluded are marked one by one.
+2.@JsonIgnoreProperties is a class-level annotation. It ignores the logical properties in JSON serialization and deserialization.
